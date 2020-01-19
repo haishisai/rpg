@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./move.css">
+</head>
+<body>
+    <div class="container">
+        <div class="player">
+            <img class="player-img" src="./images/down-0.png" alt="">
+        </div>
+        <div class="controller">
+            <ul>
+                <li id="" >左上</li>
+                <li id="" >上</li>
+                <li id="" >右上</li>
+                <li id="left" >左</li>
+                <li id="" >中</li>
+                <li id="" >右</li>
+                <li id="ld" >左下</li>
+                <li id="down" >下</li>
+                <li id="" >右下</li>
+            </ul>
+        </div>
+    </div>
+    <script src="./move.js" ></script>
+    <script>
+    rpg.init({
+        el: document.getElementsByClassName("container")[0]
+    })
+    </script>
+</body>
+</html>

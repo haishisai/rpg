@@ -1,0 +1,21 @@
+.controller ul{
+    display: grid;
+    /* 分割成3列 竖的切 */
+    grid-template-columns: 40px 40px 40px;
+    grid-template-rows: 30px 30px 30px;
+    grid-gap: 10px;
+    justify-content: right;
+}
+.controller ul li{
+    width: 40px;
+    height: 30px;
+    background-color: khaki;
+    line-height: 30px;
+    text-align: center;
+}
+.player-img{
+    position: absolute;
+    /* transform: translate3d(50%,50%,0); */
+    top:50%;
+    left:50%;
+}
