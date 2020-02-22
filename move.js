@@ -69,15 +69,13 @@ var rpg = {
                     self.player.style.left = self.player.offsetLeft + speed + "px";
                     break;
             }
-        }, 100)
-        
+        }, 100)        
     },
     ainimateMove: function () {
         self = this;
         this.controller.addEventListener("click",function (e) {
             // console.log(e.target.id)
             self.ainimateRun(e.target.id)
-        })
-        
+        })  
     }
 }
